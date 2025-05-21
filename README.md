@@ -40,16 +40,16 @@ How to Run
 
 2. Create a virtual environment (optional but recommended):
 
-bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 3. Install dependencies:
 
-bash
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 4. Run the Streamlit app:
 
-bash
-streamlit run app.py
+   ```bash
+   streamlit run app.py
